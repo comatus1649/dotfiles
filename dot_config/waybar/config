@@ -107,9 +107,9 @@
     },
     "battery": {
         "states": {
-            // "good": 95,
-            "warning": 30,
-            "critical": 15
+            // "good": 70,
+            "warning": 20,
+            "critical": 5
         },
         "format": "{capacity}% {icon}",
         "format-charging": "{capacity}% ",
@@ -134,9 +134,9 @@
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
         "format": "{volume}% {icon}",
-        "format-bluetooth": "{volume}% {icon} {format_source}",
-        "format-bluetooth-muted": " {icon} {format_source}",
-        "format-muted": " {format_source}",
+        "format-bluetooth": "{volume}% {icon}",
+        "format-bluetooth-muted": "  {volume}% {icon}",
+        "format-muted": "{volume}%  ",
         "format-source": "{volume}% ",
         "format-source-muted": "",
         "format-icons": {
